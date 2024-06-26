@@ -1,5 +1,5 @@
 #assign variables
-weather = input(f"What ’s the weather like today ? (sunny /rainy /cold ): " )
+weather = input ( "What ’s the weather like today ? (sunny /rainy /cold ): " )
 
 #display results 
 if weather == "sunny":
