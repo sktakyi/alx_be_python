@@ -17,6 +17,6 @@ match operation:
     case "/":
         if num2 != 0:
             operation = num1 / num2
-            print(f"The result is {result}")
+            print(f"The result is {operation}")
         else:
             print("Cannot divide by zero.")
