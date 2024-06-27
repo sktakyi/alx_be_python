@@ -11,7 +11,7 @@ match priority:
     case "low":
         reminder = f"Reminder: '{task}', is a low priority task. Consider completing it when you have free time."
 
-if time_bound == "no":
+if time_bound == "yes":
    reminder1 = f"Note:'{task}', is a {priority} task. Consider completing it when you have free time."
 
 print(reminder)
