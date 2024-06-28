@@ -12,7 +12,7 @@ match priority:
         reminder = f"Reminder: '{task}', is a low priority task. Consider completing it when you have free time."
 
 # Modify the reminder if the task is time-bound
-if time_bound.lower() == "yes":
+if time_bound == "yes":
     reminder += " - that requires immediate attention today!"
 
 # Provide a customized reminder
