@@ -1,1 +1,2 @@
-Alx Python study
+#
+Overview of Python study journey
